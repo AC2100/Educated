@@ -76,6 +76,9 @@ class ViewController: UIViewController {
             whatFlashcardYouAreOn = 14
         }
         
+        backFlash.isHidden = true
+        frontFlash.isHidden = false
+        
         lblFlashcardContent.text = flashcardQuestions[whatFlashcardYouAreOn]
         
     }
