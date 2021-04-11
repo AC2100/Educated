@@ -53,7 +53,7 @@ class ViewController: UIViewController {
         frontFlash.isHidden = false
         lblHeading.text = "Question:"
         
-        lblFlashcardContent.text = flashcardQuestions[whatFlashcardYouAreOn]
+        
         //For debugging: print(String(whatFlashcardYouAreOn))
         
         if whatFlashcardYouAreOn == 14 {
@@ -63,6 +63,9 @@ class ViewController: UIViewController {
             whatFlashcardYouAreOn += 1
             print(whatFlashcardYouAreOn)
         }
+      
+        lblFlashcardContent.text = flashcardQuestions[whatFlashcardYouAreOn]
+        
     }
     
     @IBAction func clickedBackFlash(_ sender: Any) {
@@ -88,7 +91,7 @@ class ViewController: UIViewController {
         frontFlash.isHidden = true
         backFlash.isHidden = false
         
-//Alternate version of the flip code
+//Alternate version of the code/logic
 //        if lblFlashcardContent.text == flashcardQuestions[whatFlashcardYouAreOn] {
 //            lblFlashcardContent.text = flashcardAnswers[whatFlashcardYouAreOn]
 //            lblHeading.text = "Answer:"
