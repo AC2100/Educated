@@ -92,6 +92,7 @@ class ViewController: UIViewController {
         backFlash.isHidden = false
         
 //Alternate version of the code/logic
+//For a different version of the famous women feature
 //        if lblFlashcardContent.text == flashcardQuestions[whatFlashcardYouAreOn] {
 //            lblFlashcardContent.text = flashcardAnswers[whatFlashcardYouAreOn]
 //            lblHeading.text = "Answer:"
@@ -109,7 +110,7 @@ class ViewController: UIViewController {
     
     
     
-    //    func famousWomenDisplay (picture : String, number : Int, name : String) {
+//    func famousWomenDisplay (picture : String, number : Int, name : String) {
 //        //picture.image = name
 //        lblTitle.text = name
 //        print(name)
